@@ -1,0 +1,29 @@
+{
+  "name": "twitter-speaker",
+  "version": "1.0.0",
+  "description": "ツイッターのタイムラインを自動で読み上げるニュースアプリ（にしたい）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --progress --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akzero53/twitter-speaker.git"
+  },
+  "author": "Eisuke Okuyama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akzero53/twitter-speaker/issues"
+  },
+  "homepage": "https://github.com/akzero53/twitter-speaker#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.1",
+    "pug": "^2.0.0-rc.4",
+    "vue": "2.4.4"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
+}
